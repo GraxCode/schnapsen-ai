@@ -18,7 +18,7 @@ public class SchnapsenAI {
 			trumpCard = new Card(args[0]);
 			hand = args[1].split(",");
 		} catch (Exception e) {
-			log("Wrong arguments");
+			log("Wrong arguments, sample input: \"ho hu,ss,sk,lo,ez\"");
 			e.printStackTrace();
 			return;
 		}
